@@ -3,13 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./dices/d6.jpg">
 
     <title>Rolando dados</title>
 </head>
 <body>
-    <h1>Rolando dados</h1>
-
+    <header>
+        <img src="./dices/dice.gif" /> <h1>ROLLING DICES! </h1>
+    </header>
+    <main>
+        <div class="graph">
+            <div class="numbers">
+                <span> 12 </span>
+                <span> 11 </span>
+                <span> 10 </span>
+                <span> 9 </span>
+                <span> 8 </span>
+                <span> 1 </span>
+                <span> 6 </span>
+                <span> 5 </span>
+                <span> 4 </span>
+                <span> 3 </span>
+                <span> 2 </span>
+                <span> 1 </span>
+            </div>
+            <div id="rollsGraph">
+            </div>
+        </div>
+        <div id="graphsButton">
+            <input  id="rollTimes" type="number">
+            <button id="rollMany"> Roll </button>
+        </div>
+        <div class="dices">
+            <img id="d1" src="./dices/d1.jpg">
+            <img id="d2" src="./dices/d1.jpg">
+            <button id="roll2"> Roll </button>
+        </div>
+        <div class="dice">
+            <img id="dice" src="./dices/d1.jpg">
+            <button id="roll1"> Roll </button>
+        </div>
+    </main>
     <script src="script.js"></script>
+    <script src="./twices2.js"></script>
 </body>
 </html>

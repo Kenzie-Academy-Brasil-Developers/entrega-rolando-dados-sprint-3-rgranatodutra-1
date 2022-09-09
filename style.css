@@ -1,0 +1,184 @@
+header{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   box-shadow: 0px 0px 15px 6px rgba(73, 217, 246, 0.5);
+   min-height: 50px;
+   height: 15vh;
+}
+.logo h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   color:rgba(73, 217, 246, 0.5);
+   background-blend-mode:soft-light;
+}
+main{
+   box-shadow: 0px 0px 15px 6px rgba(73, 217, 246, 0.5);
+   margin-top: 2vh;
+   min-width: 100px;
+   min-height: 100px;
+   height: 79vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.graph {
+   display: flex;
+   min-width: 100px;
+   min-height: 100px;
+   height: 240px;
+   width: 100%;
+   border: 2px solid black;
+   
+}
+#rollsGraph{
+   display: flex;
+   flex-direction: row;
+   min-width: 100px;
+   min-height: 100px;
+   height: 240px;
+   width: 100%;
+   overflow-x: scroll;
+}
+#rollsGraph hr{
+   margin: 0px;
+   height: 100%;
+}
+#rollsGraph div{
+   display: flex;
+   flex-direction: row;
+}
+#rollsGraph span{
+   display: flex;
+   padding-right: 25%;
+   justify-content: center;
+   align-self: flex-end;
+   
+}
+
+.numbers{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border-right: 1px solid black;
+   width: 20px;
+   height: 100%;
+   text-align: center;
+}
+.numbers span{
+   border-bottom: black solid 1px;
+}
+
+.numbers hr, .graph hr{
+   margin: 0px
+}
+
+.doze, .onze, .dez, .nove, .oito, .sete, .seis, .cinco, .quatro, .tres, .dois, .um{
+   background-color: rgba(73, 217, 246, 0.5);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 10px;
+   justify-content: flex-end;
+   padding: 0px;
+   margin: 0px;
+   width: 20px;
+   min-width: 20px;
+}
+.doze{
+   height: 0px;
+}
+.onze{
+   height: 19px;
+}
+.dez{
+   height: 39px;
+}
+.nove{
+   height: 59px;
+}
+.oito{
+   height: 79px;
+}
+.sete{
+   height: 99px;
+}
+.seis{
+   height: 119px;
+}
+.cinco{
+   height: 139px;
+}
+.quatro{
+   height: 159px;
+}
+.tres{
+   height: 179px;
+}
+.dois{
+   height: 199px;
+}
+.um{
+   height: 219px;
+}
+
+.dices{
+   margin-top: 10px;
+   width: 260px;
+   height: 128px;
+   display: flex;
+   flex-wrap: wrap;
+   align-self: flex-start;
+   margin-left: 10px;
+}
+
+#d1, #d2{
+   margin: 1px;
+   width: 64px;
+   height: 64px;
+}
+#roll2{
+   margin-top: 2px;
+   margin-left: 64px;
+   width: 64px;
+   height: 64px;
+
+}
+#graphsButton{
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 176px;
+}
+#rollTimes{
+   height: 44px;
+   width: 100px;
+   font-size: 32px;
+   text-align: end;
+}
+#rollMany{
+   height: 50px;
+   font-size: 20px;
+   width: 60px;
+}
+
+.dice{
+   margin-top: 10px;
+   height: 64px;
+   display: flex;
+   flex-wrap: wrap;
+   align-self: flex-start;
+   margin-left: 10px;
+   gap: 132px;
+}
+
+.dice #dice, #roll1{
+   height: 64px;
+   width: 64px;
+}
